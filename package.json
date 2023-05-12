@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "type": "typechain --target web3-v1 --out-dir types \"../blockchain/build/contracts/*.json\"",
+    "build": "tsc -p .",
+    "serve": "node server.js"
+  },
+  "devDependencies": {
+    "@typechain/web3-v1": "^6.0.2",
+    "@types/express": "^4.17.17",
+    "typechain": "^8.1.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "web3": "^1.10.0"
+  }
+}
